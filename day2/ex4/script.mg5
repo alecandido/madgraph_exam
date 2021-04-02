@@ -1,0 +1,36 @@
+# vim: set filetype=conf:
+
+# === LO ===
+
+# first run: LHC
+generate p p > e+ e- [QCD]
+output _day2_ex4
+launch _day2_ex4
+# modify options
+1 # choose LO
+2 # choose FO
+# edit FO_analyse_card.dat
+FO_ANALYSE = analysis_HwU_pp_ttx_v2.o
+
+# === LO + PS ===
+launch _day2_ex4
+# modify options
+1 # choose LO
+3 # choose Pythia8
+# edit shower_card.dat
+ANALYSE      = HwU.o py8an_HwU_pp_ttx_v2.o # User's analysis and histogramming
+
+
+# === NLO ===
+
+launch _day2_ex4
+# modify options
+1 # choose NLO
+2 # choose FO
+
+
+# === NLO + PS ===
+launch _day2_ex4
+# modify options
+1 # choose NLO
+3 # choose Pythia8
