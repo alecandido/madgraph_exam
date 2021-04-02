@@ -1,0 +1,20 @@
+# vim: set filetype=conf:
+
+# === LO ===
+
+# first run: LHC
+generate p p > e+ e- [QCD]
+output _day2_ex3
+launch _day2_ex3
+# modify options
+# ensure using NLO
+2 # choose FO
+# edit FO_analyse_card.dat
+FO_ANALYSE = analysis_HwU_pp_lplm.o
+
+# === NLO ===
+
+launch _day2_ex3
+# modify options
+1 # choose LO
+2 # choose FO
