@@ -1,6 +1,6 @@
 # MG5_aMC@NLO exercises
 
-These exercises are related
+These exercises are related to a course about `mg5_aMC@NLO` held in June 2020.
 
 ## Author and collaborators
 
