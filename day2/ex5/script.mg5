@@ -1,0 +1,53 @@
+# vim: set filetype=conf:
+
+# === loop_sm ===
+
+# first run: LHC
+generate p p > h [QCD]
+output _day2_ex5
+launch _day2_ex5
+# modify options
+1 # choose LO
+2 # choose FO
+
+launch _day2_ex5
+1 # choose NLO
+2 # choose FO
+
+# first run: LHC
+generate p p > h b b~ [QCD]
+output _day2_ex5_bbxh
+launch _day2_ex5_bbxh
+# modify options
+1 # choose LO
+2 # choose FO
+
+launch _day2_ex5_bbxh
+1 # choose NLO
+2 # choose FO
+
+# === heft: gg > h ===
+import model HC_NLO_X0_UFO-heft
+generate p p > x0 / t [QCD]
+output _day2_ex5_heft
+launch _day2_ex5_heft
+# modify options
+1 # choose LO
+2 # choose FO
+
+launch _day2_ex5_heft
+1 # choose NLO
+2 # choose FO
+
+# === heft: gg > h j ===
+
+generate p p > x0 j / t [QCD]
+output _day2_ex5_heft_gghj
+launch _day2_ex5_heft_gghj
+# modify options
+1 # choose LO
+2 # choose FO
+
+launch _day2_ex5_heft_gghj
+1 # choose NLO
+2 # choose FO
