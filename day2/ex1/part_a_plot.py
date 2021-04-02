@@ -76,4 +76,4 @@ plt.yticks(np.linspace(0, 80, 5))
 plt.legend()
 
 # plt.show()
-plt.savefig("angmom.pdf")
+plt.savefig("me(kt).pdf")
