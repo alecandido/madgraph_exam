@@ -1,0 +1,25 @@
+LO
+   --------------------------------------------------------------
+      Final results and run summary:
+      Process e+ e- > q q~ [QCD]
+      Run at l-l collider (500.0 + 500.0 GeV)
+      Total cross section: 5.320e-01 +- 3.2e-03 pb
+   --------------------------------------------------------------
+      Scale variation (computed from histogram information):
+          Dynamical_scale_choice -1 (envelope of 9 values):
+              5.321e-01 pb  +0.0% -0.0%
+   --------------------------------------------------------------
+
+NLO
+
+   --------------------------------------------------------------
+      Final results and run summary:
+      Process e+ e- > q q~ [QCD]
+      Run at l-l collider (500.0 + 500.0 GeV)
+      Total cross section: 5.479e-01 +- 1.9e-03 pb
+   --------------------------------------------------------------
+      Scale variation (computed from histogram information):
+          Dynamical_scale_choice -1 (envelope of 9 values):
+              5.477e-01 pb  +0.2% -0.2%
+   --------------------------------------------------------------
+

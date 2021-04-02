@@ -1,0 +1,16 @@
+# vim: set filetype=conf:
+
+# === part c ===
+
+generate p p > b b~ g
+output _day2_ex1
+launch _day2_ex1
+# edit param_card.dat
+# 5 scan│[ 1. , 1.7, 2.8, 4.6, 7.7, 12.9, 21.5, 35.9, 59.9, 100. ] # mb 
+# edit run_card.dat
+# 1.0 = ej
+launch _day2_ex1
+# edit param_card.dat
+# 5 4.700000e+00 # mb
+# save histogram 14: "DELTAR ( b[1] , g[1] )" -> deltar.png
+

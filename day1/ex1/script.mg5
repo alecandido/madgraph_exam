@@ -1,0 +1,3 @@
+# vim: set filetype=sh:
+
+compute_widths z w+ t --output=results.dat

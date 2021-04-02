@@ -1,0 +1,8 @@
+# vim: set filetype=sh:
+
+generate p p > t t~
+output _day1_ex2
+launch _day1_ex2
+# then modify _day1_ex2/Cards/param_card.dat
+# changing line 17: Higgs mass set to 2.000000e+02
+compute_width h --path=_tmp/Cards/param_card.dat --output=results.dat

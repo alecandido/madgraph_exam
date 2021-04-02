@@ -1,0 +1,23 @@
+# vim: set filetype=sh:
+
+# === LO ===
+
+# first run: LHC
+import model loop_sm
+define q = d u s c
+define q~ = d~ u~ s~ c~
+generate e+ e- > q q~ [QCD]
+output _day2_ex2
+launch _day2_ex2 --name=LO
+# modify options
+1 # choose LO
+2 # choose FO
+3 # properly deactivate PS
+
+# === NLO ===
+
+launch _day2_ex2 --name=NLO
+# modify options
+# ensure using NLO
+2 # choose FO
+3 # properly deactivate PS

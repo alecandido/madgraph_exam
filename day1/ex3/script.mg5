@@ -1,0 +1,15 @@
+# vim: set filetype=sh:
+
+import model sm-full
+generate mu- > e- ve~ vm
+output _day1_ex3
+launch _day1_ex3
+# then modify: madanalysis5_parton_card.dat
+# add a line for plotting the energy (reference in MadAnalysis manual)
+# plot E(e-[1]) 40 0 0.055 [logY]
+# put at line 24
+
+
+# plots in process_root/HTML/runXXX/tagYYY/Output/HTML/MadAnalysisZZZ
+# got the 5th
+# or directly download from the html MadAnalysis report

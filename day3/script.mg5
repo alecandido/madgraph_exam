@@ -1,0 +1,39 @@
+# vim: set filetype=sh:
+
+# === SM ===
+
+generate p p > vl vl~ j
+output _day3_sm
+launch _day3_sm
+# edit run_card.dat
+# lhapdf = pdlabel
+# 21050 = lhaid  ! MSTW2008lo90cl
+# 50.0 = ptj
+# edit madanalysis_parton_card.dat
+# see: sm_madanalysis/madanalysis5_parton_card.dat
+# ---
+launch _day3_sm
+# edit run_card.dat
+# 200.0 = ptj
+
+# === DM ===
+
+import model DMsimp_s_spin0
+generate p p > xd xd~ j [QCD]
+output _day3_dm
+launch _day3_dm
+# edit param_card.dat
+# Block mass
+#    52 5.000000e+01 # MXd
+#    54 2.000000e+02 # MY0
+# DECAY  54 5.170000e+00 # WY0
+# edit run_card.dat
+# lhapdf = pdlabel
+# 21050 = lhaid  ! MSTW2008lo90cl
+# 50.0 = ptj
+# edit madanalysis_parton_card.dat
+# see: dm_madanalysis/madanalysis5_parton_card.dat
+# ---
+launch _day3_dm
+# edit run_card.dat
+# 200.0 = ptj

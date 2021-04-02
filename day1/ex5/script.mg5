@@ -1,0 +1,26 @@
+# vim: set filetype=sh:
+
+# === part a ===
+
+# first run: LHC
+generate p p > t t~
+output _day1_ex5a
+launch _day1_ex5a
+# get result for LHC
+# ---
+# second run: Tevatron
+launch _day1_ex5a
+# edit run_card.dat
+# -1 = lpp2
+# 490.0 = ebeam1
+# 490.0 = ebeam2
+# get result for Tevatron
+
+# === part b ===
+
+generate p p > t t~ j
+output _day1_ex5b
+# edit run_card.dat
+# 20.0 = ptj
+# 4.0 = etaj
+launch _day1_ex5b
