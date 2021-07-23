@@ -17,7 +17,9 @@ Following the mentioned analysis the cross sections are computed for two values
 of the cut on the `ptj`: $50 GeV$ and $200 GeV$ (of course for both SM and DM
 theories).
 
-The PDFset used is always "MSTW2008lo90cl"
+The PDFset used is always "MSTW2008lo90cl".
+
+We decided to use as signature the jet pt distribution, showed as Histogram 2 in the MA5 reports.
 
 ### SM background
 

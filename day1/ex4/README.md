@@ -40,7 +40,7 @@ birth of the quark model:
 $$
 \frac{\frac{1}{64} \left(8 \sin^4(\theta_W)-4 \sin^2(\theta_W)+1\right)
 \left(A_f^2+V_f^2\right) (\cos (2 \theta )+3)+\frac{1}{4} (1-4
-\sin^2(\theta_W)) A_f V_f \cos (\theta )}{32 \pi  s}
+\sin^2(\theta_W)) A_f V_f \cos (\theta )}{128 \pi  s}
 $$
 
 The $\cos (\theta)$ distribution is split in two parts:
