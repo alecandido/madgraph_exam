@@ -2,8 +2,21 @@
 
 ## Results
 
-- LO: 1494 ± 4.8
-- NLO: 2087 ± 8.7
+- LO: 1494 ± 4.8 pb
+- NLO: 2087 ± 8.7 pb
+
+Thus the K-factor is: 1.3969 ± 0.0074
+
+(here and in the previous exercise the error on K-factor has been obtained as
+the approximate variance, thus summing in quadrature)
+
+```python
+import numpy as np
+
+def kfactor(a, da, b, db):
+    r = a / b
+    return (r, np.sqrt(r**2 * ((da/a)**2 + (db/b)**2)))
+```
 
 ## LO - NLO plots comparison
 

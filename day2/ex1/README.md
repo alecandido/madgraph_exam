@@ -5,6 +5,8 @@
 The plot can be found in the file `me(kt).pdf`, and it has been created by the
 script `part_a_plot.py`.
 
+The same dead cone described in the exam sheet is observed.
+
 ## part (c)
 
 The instructions for obtaining the `MG5_aMC` results are in the file

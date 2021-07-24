@@ -1,5 +1,8 @@
 # Exercise 5
 
+The commands for the required widths are in `script.mg5` (including the
+description of the steps performed out of the interpreter).
+
 ## Results
 
 ### loop_sm: p p > h [QCD]
