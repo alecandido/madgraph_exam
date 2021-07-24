@@ -20,7 +20,7 @@ $$
 
 This is the same cross section for production of muon pairs from
 electron-positron annihilation, apart from the charge factor $Q_f^2$, and the
-omitted sum over colors.
+omitted sum over colors and flavors.
 
 The flavors to sum on should be those who are possible to excite at the
 experiment energy, and so those whose mass is below $s/2$.
